@@ -1,0 +1,17 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.ssh/
+
+# Dependencies, caches, and machine-specific files
+node_modules/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+
+# Keep images, backups/, and *.bak as part of this backup.
